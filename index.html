@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <title>Веб-студия "Нёрдс"</title>
+     <link href="css/normalize.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+        <h2 class="hidden">Дизайн-студия Нёрдс</h1>
+        <div class="container">
+            <nav class="main-navigation">
+                <a class="logo">
+                    <img src="./img/logo.svg" width="160" height="65" alt="Логотип студии Нёрдс">
+                </a>
+                <ul class="navigation">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="basket">
+                    <a class="basket-icon" href="#">Корзина</a>
+                </div>
+            </nav>
+            <section class="slider">
+                <h2 class="hidden">Преимущества</h2>
+                <input class="hidden" type="radio" name="switch" id="slide1" checked>
+                <input class="hidden" type="radio" name="switch" id="slide2">
+                <input class="hidden" type="radio" name="switch" id="slide3">
+                <div class="slider-nav">
+                    <label class="active" for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+                <ul class="slider-list">
+                    <li class="slider-item">
+                        <h3>Долго, дорого, скрупулезно.</h3>
+                        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                        <a class="btn btn-red" href="#">Узнать больше</a>
+                    </li>
+                    <li class="slider-item">
+                        <h3>Любим математику как никто другой</h3>
+                        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                        <a class="btn btn-red" href="#">Узнать больше</a>
+                    </li>
+                    <li class="slider-item">
+                        <h3>Только ночь, только хардкор</h3>
+                        <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                        <a class="btn btn-red" href="#">Узнать больше</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="productes">
+            <h2 class="hidden">Наша продукция</h2>
+            <ul>
+                <li class="productes-item">
+                    <img src="./img/illustration-1.png" width="300" height="146" alt="Веб-сайты">
+                    <h2>Веб-сайты</h2>
+                    <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                    <a class="btn btn-red" href="#">Заказать</a>
+                </li>
+                <li class="productes-item">
+                    <img src="./img/illustration-2.png" width="300" height="146" alt="Приложения">
+                    <h2>Приложения</h2>
+                    <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+                    <a class="btn btn-green" href="#">Заказать</a>
+                </li>
+                <li class="productes-item">
+                    <img src="./img/illustration-3.png" width="300" height="146" alt="Презентации">
+                    <h2>Презентации</h2>
+                    <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                    <a class="btn btn-yellow" href="#">Заказать</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="features">
+            <h2 class="hidden">Принцип работы</h2>
+            <div class="features-item">
+                <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
+                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+                <h4>Выполняем заказы на разработку:</h4>
+                <ul>
+                    <li>Веб-сайтов любой сложности</li>
+                    <li>Мобильных приложений для iOS и Android</li>
+                    <li>Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
+            </div>
+            <div class="features-table">
+                <img src="./img/nerds-illustration-jpg.png" width="360" height="208">
+                <h4>с 2004 года любим точность во всем:</h4>
+                <table class="table">
+                    <tr class="row-1">
+                        <td>146<span>%</span></td>
+                        <td>100<span>%</span></td>
+                        <td>50<span>%</span></td>
+                    </tr>
+                    <tr class="row-2">
+                        <td>Уровень самоотдачи</td>
+                        <td>Соблюдение cроков</td>
+                        <td>Минимальная предоплата</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="our-partners">
+            <h2 class="hidden">Наши партнёры</h2>
+            <ul>
+                <li class="partner">
+                    <a href="#" title="сайт академии программирования HTMLacademy, партнер студии Нёрдс">
+                        <img src="./img/partner1.png" width="199" height="68" alt="академия программирования HTMLacademy">
+                    </a>
+                </li>
+                <li class="partner">
+                    <a href="#" title="cайт салона красоты для мужчин - барбершоп Бородинский, партнер студии Нёрдс">
+                        <img src="./img/partner2.png" width="209" height="90" alt="салон красоты для мужчин - барбершоп Бородинский">
+                    </a>
+                </li>
+                <li class="partner">
+                    <a href="#" title="сайт студии Пинк, разработчиков лендингов приложений iOS и Android и партнера студии Нёрдс">
+                        <img src="./img/partner3.png" width="185" height="52" alt="разработчик лендингов приложений iOS и Android студия Пинк">
+                    </a>
+                </li>
+                <li class="partner">
+                    <a href="#" title="сайт магазина вязанных игрушек Мишка, партнера студии Нёрдс">
+                        <img src="./img/partner4.png" width="173" height="84" alt="магазин вязанных игрушек Мишка">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <section class="contacts">
+            <h2 class="hidden">Как к нам попасть. Адрес студии Нёрдс</h2>
+            <img src="./img/map.jpg" width="1440" height="415" alt="Студия Нёрдс находится по адресу ул. Большая Конюшенная, д.19/8, телефон +7 (812) 275-75-75">
+            <div class="address">
+                <h4>NЁRDS DESIGN STUDIO</h4>
+                <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                <p>тел. +7 (812) 275-75-75</p>
+                <a class="btn btn-red" href="#">Напишите нам</a>
+            </div>
+        </section>
+        <section class="footer-social">
+            <h2 class="hidden">Нёрдс в социальных сетях</h2>
+            <ul>
+                <li class="social-icon">
+                    <a href="#" class="social-button" title="сайт Нёрдс Вконтакте">
+                        <img src="./img/icon-vk.svg" width="79" height="79" alt="Нёрдс Вконтакте">
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="#" class="social-button" title="сайт Нёрдс на Фейсбуке">
+                        <img src="./img/icon-fb.svg" width="79" height="79" alt="Нёрдс на Фейсбуке">
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="#" class="social-button" title="сайт Нёрдс в инстаграме">
+                        <img src="./img/icon-vk.svg" width="79" height="79" alt="Нёрдс в инстаграме">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="social-discount">
+            <h3>Давайте дружить, это выгодно!</h3>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </section>
+    </footer>
+
+    <section class="form-contacts hidden">
+        <button class="close-contact" type="button" name="close-contact">
+            <span class="hidden">Закрыть форму обратной связи</span>
+        </button>
+        <h2>Напишите нам</h2>
+        <form name="contact-us" action="https://echo.htmlacademy.ru" method="post">
+            <label>Ваше имя:
+                <input class="input-filed" type="text" id="your-name" placeholder="Представьтесь, пожалуйста" required>
+            </label>
+            <label>Ваш e-mail:
+                <input class="input-filed" type="email" id="your-email" placeholder="Для отправки ответа" required>
+            </label>
+            <label>Текст письма:
+                <textarea class="input-filed" type="text-email" id="your-message" rows="6" placeholder="В свободной форме"></textarea>
+            </label>
+        </form>
+        <button type="submit" class="btn btn-red">Отправить</button>
+    </section>
+  </body>
+</html>
